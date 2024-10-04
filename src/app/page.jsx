@@ -51,7 +51,8 @@ const Home = () => {
             <div className="w-[80%]">
               <div className="text-lg">Reassuringly secure.</div>
               <div className="font-custom mt-3">
-              Django takes security seriously and helps developers avoid many common security mistakes.
+                Django takes security seriously and helps developers avoid many
+                common security mistakes.
               </div>
             </div>
           </div>
@@ -64,7 +65,8 @@ const Home = () => {
             <div className="w-[80%]">
               <div className="text-lg">Exceedingly scalable.</div>
               <div className="font-custom mt-3">
-              Some of the busiest sites on the web leverage Django’s ability to quickly and flexibly scale.
+                Some of the busiest sites on the web leverage Django’s ability
+                to quickly and flexibly scale.
               </div>
             </div>
           </div>
@@ -269,7 +271,7 @@ const Home = () => {
               Development Dashboard
             </div>
             <div className="mt-2 text-sm text-gray-400 font-light">
-              see what's currently being worked on
+              see what&aposs currently being worked on
             </div>
             <div className="text-[#7fc9ac] text-xs font-medium mt-8 leading-6">
               INSIDE THE DJANGO COMMUNITY

@@ -146,8 +146,8 @@ const Download = () => {
               Patch releases (A.B.C, etc.) will be issued as needed, to fix bugs
               and/or security issues. These releases will be 100% compatible
               with the associated feature release, unless this is impossible for
-              security reasons or to prevent data loss. So the answer to "should
-              I upgrade to the latest patch release?” will always be "yes."
+              security reasons or to prevent data loss. So the answer to should
+              I upgrade to the latest patch release?” will always be yes.
             </div>
             <div className="font-custom mt-6 text-lg leading-8">
               Certain feature releases will be designated as long-term support
@@ -383,7 +383,10 @@ const Download = () => {
             </div>
           </div>
           <div className="mt-10">
-            <div className="text-lg">Unsupported previous releases (no longer receive security updates or bug fixes)</div>
+            <div className="text-lg">
+              Unsupported previous releases (no longer receive security updates
+              or bug fixes)
+            </div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-3"></div>
             <div className="flex gap-2 font-light">
               <div className="font-black text-xl mt-3">.</div>
@@ -391,7 +394,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -425,7 +428,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -459,7 +462,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -493,7 +496,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -527,7 +530,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -561,7 +564,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -595,7 +598,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -629,7 +632,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -663,7 +666,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -697,7 +700,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">
@@ -731,7 +734,7 @@ const Download = () => {
                 <div className="flex gap-1">
                   <span>Django 4.1.13:</span>
                   <span className="text-[#5ab591] dark:text-[#95d5bb] hover:text-[#b8dacd] cursor-pointer underline">
-                     Django-4.1.13.tar.gz
+                    Django-4.1.13.tar.gz
                   </span>
                 </div>
                 <div className="flex gap-1">

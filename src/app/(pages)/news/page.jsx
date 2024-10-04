@@ -14,8 +14,8 @@ const News = () => {
       </div>
       <div className="w-full md:flex">
         <div className="md:w-[64%] pl-5 md:pl-16 pr-3 md:pr-10 pb-10">
-          {news.map((data) => (
-            <NewsCard data={data} />
+          {news.map((data, index) => (
+            <NewsCard data={data} key={index} />
           ))}
         </div>
 
@@ -57,8 +57,8 @@ const News = () => {
             <div className="text-lg">Archives</div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-3"></div>
             <div>
-              {[...years].reverse().map((year) => (
-                <YearCard data={year}/>
+              {[...years].reverse().map((year, index) => (
+                <YearCard data={year} key={index} />
               ))}
             </div>
           </div>
@@ -70,9 +70,7 @@ const News = () => {
                 <Image alt="" className="h-5 w-5" src={signals} />
               </div>
               <div>
-                <div className="text-sm">
-                Latest news entries
-                </div>
+                <div className="text-sm">Latest news entries</div>
               </div>
             </div>
             <div className="flex items-center gap-3 text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-4">
@@ -80,9 +78,7 @@ const News = () => {
                 <Image alt="" className="h-5 w-5" src={signals} />
               </div>
               <div>
-                <div className="text-sm">
-                Recent code changes
-                </div>
+                <div className="text-sm">Recent code changes</div>
               </div>
             </div>
           </div>

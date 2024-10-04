@@ -18,20 +18,19 @@ const YearCard = ({ data }) => {
           <span className="font-black">+</span>
         )}
       </button>
-      {
-        open && (
-            <div className="my-6">
-                {
-                    months.map((month)=>(
-                        <button className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] flex justify-between mt-4 text-xs font-light gap-1">
-                            <span>{month}</span>
-                            <span>{data}</span>
-                        </button>
-                    ))
-                }
-            </div>
-        )
-      }
+      {open && (
+        <div className="my-6">
+          {months.map((month, index) => (
+            <button
+              key={index}
+              className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] flex justify-between mt-4 text-xs font-light gap-1"
+            >
+              <span>{month}</span>
+              <span>{data}</span>
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

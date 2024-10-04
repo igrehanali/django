@@ -5,31 +5,26 @@ import Feeds from "@/components/feeds";
 import { getHelp, getInvolved } from "@/data";
 
 const Community = () => {
-
   return (
     <div className=" w-full bg-white dark:bg-black dark:text-gray-300 text-[#0C4B33]">
       <div className="bg-[#1b8059] text-xl md:text-3xl px-3 md:px-16 font-extralight py-5">
-      Building the Django Community for 19 years. Come join us!
+        Building the Django Community for 19 years. Come join us!
       </div>
       <div className="w-full md:flex">
         <div className="md:w-[64%] pl-5 md:pl-16 pr-3 md:pr-10 py-10 grid justify-center">
           <div className=" text-2xl text-center lg:text-start">Get Help</div>
           <div className="flex flex-wrap justify-center lg:justify-start gap-16 mt-5">
-          {
-            getHelp.map((data)=>(
-                <CommunityCard data={data}/>
-              )
-            )
-          }
+            {getHelp.map((data, index) => (
+              <CommunityCard data={data} key={index} />
+            ))}
           </div>
-          <div className=" text-2xl mt-10 text-center lg:text-start">Get Involved</div>
+          <div className=" text-2xl mt-10 text-center lg:text-start">
+            Get Involved
+          </div>
           <div className="flex flex-wrap justify-center lg:justify-start gap-16 mt-5">
-          {
-            getInvolved.map((data)=>(
-                <CommunityCard data={data}/>
-              )
-            )
-          }
+            {getInvolved.map((data, index) => (
+              <CommunityCard data={data} key={index} />
+            ))}
           </div>
           <Feeds />
           <div className="mb-8 mt-16 text-2xl">Mailing Lists</div>
@@ -40,7 +35,9 @@ const Community = () => {
           <div className="grid md:grid-cols-2">
             <div>
               <div>
-                <div className="text-[#4bb78c] dark:text-[#93D7B7] mt-10">Using Django</div>
+                <div className="text-[#4bb78c] dark:text-[#93D7B7] mt-10">
+                  Using Django
+                </div>
                 <div className="mt-3">
                   Get help with Django and follow announcements.
                 </div>
@@ -136,7 +133,8 @@ const Community = () => {
                 <Image alt="" className="h-20 w-20" src={heart} />
               </div>
               <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] text-sm w-[70%] leading-6 cursor-pointer">
-              SNEAKSHIGH LTD donated to the Django Software Foundation to support Django development. Donate today!
+                SNEAKSHIGH LTD donated to the Django Software Foundation to
+                support Django development. Donate today!
               </div>
             </div>
           </div>
@@ -144,89 +142,80 @@ const Community = () => {
             <div className="text-lg">Latest News</div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-3"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Frequently Asked Questions
+              Frequently Asked Questions
             </div>
             <div className=" text-sm font-light">
-            The FAQ answers many common questions
+              The FAQ answers many common questions
             </div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            r/Django Subreddit
+              r/Django Subreddit
             </div>
-            <div className=" text-sm font-light">
-            News and links on Reddit
-            </div>
+            <div className=" text-sm font-light">News and links on Reddit</div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            StackOverflow
+              StackOverflow
             </div>
-            <div className=" text-sm font-light">
-            Search community answers
-            </div>
+            <div className=" text-sm font-light">Search community answers</div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            #django IRC Channel
+              #django IRC Channel
             </div>
             <div className=" text-sm font-light">
-            Chat with other Django users like it's 1999
+              Chat with other Django users like it&aposs 1999
             </div>
           </div>
           <div className="mt-10">
             <div className="text-lg">Dive In</div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-3"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Ticket System
+              Ticket System
             </div>
             <div className=" text-sm font-light">
-            View and update bug reports
+              View and update bug reports
             </div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Development Dashboard
+              Development Dashboard
             </div>
             <div className=" text-sm font-light">
-            Statistics about Django development
+              Statistics about Django development
             </div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            django-updates Mailing List
+              django-updates Mailing List
             </div>
             <div className=" text-sm font-light">
-            Get updated for each code and ticket change
+              Get updated for each code and ticket change
             </div>
           </div>
           <div className="mt-10">
             <div className="text-lg">More Links</div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-3"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Django Packages
+              Django Packages
             </div>
             <div className=" text-sm font-light">
-            Find third-party packages to supercharge your project
+              Find third-party packages to supercharge your project
             </div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Django-powered Sites
+              Django-powered Sites
+            </div>
+            <div className=" text-sm font-light">Add your site to the list</div>
+            <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
+            <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
+              Django Badges
             </div>
             <div className=" text-sm font-light">
-            Add your site to the list
+              Show your support (or wish longingly)
             </div>
             <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
             <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Django Badges
+              Django Logos
             </div>
-            <div className=" text-sm font-light">
-            Show your support (or wish longingly)
-            </div>
-            <div className="h-[1px] bg-gray-300 dark:bg-white mt-4"></div>
-            <div className="text-[#4bb78c] dark:text-[#95d5bb] hover:text-[#60c29b] cursor-pointer mt-5 leading-6">
-            Django Logos
-            </div>
-            <div className=" text-sm font-light">
-            Download official logos
-            </div>
+            <div className=" text-sm font-light">Download official logos</div>
           </div>
-
         </div>
       </div>
     </div>
