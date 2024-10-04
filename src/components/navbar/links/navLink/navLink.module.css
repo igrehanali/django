@@ -1,0 +1,13 @@
+.container{
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.active{
+  background-color: var(--text);
+  color: #15c682;
+  font-weight: 800;
+}
